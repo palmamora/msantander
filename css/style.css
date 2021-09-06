@@ -1,0 +1,54 @@
+nav { 
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+
+}
+nav a { font-size:1.5rem; font-weight:bold; display: flex; text-decoration:none; color:#ffffff; transition:0.3s; padding-left:10px; padding-right:10px; height:40px; align-items:center; justify-content:center;}
+nav li { position:relative; background:#c8102e; color:rgb(255, 255, 255); text-align:center; position : relative; padding: 15px; margin: 5px;}
+nav ul  ul  { display:none; }
+nav li ul { position : absolute;  }
+nav ul > li:hover ul { display:block; }
+/*nav li:hover { background-color:#FFFFFF; color:#000000; }*/
+nav > ul { display:flex; list-style:none; }
+nav > ul > li { flex:auto; text-align:center; line-height:2; }
+nav ul li ul { text-align:center; list-style:none; }
+nav ul li ul li { line-height:1.15; }
+nav a:hover { font-size:15px; color:#FFFFFF; }
+
+.thx { text-decoration:none; background-color:#951555; color:white;  }
+.trx:hover > td { border-bottom:0.5px solid #951555; border-top:0.5px solid #951555;}
+.tablex { background-color:#fdf0f6; }
+.menuh { display:inline-block; margin-left:10px; }
+.menuh > img {width:25px; height:25px; }
+.tdata { display:none; }
+.cdata { display:flex; flex-flow:row wrap; }
+.bdata { display:block; border:0.1px solid white; height:60px; width:220px; padding:5px; overflow:auto; }
+.bidata { border:0.1px solid black; height:150px; width:220px; padding:5px; }
+.bidata img { border:0.1px solid black; height:100px; width:100px; display:block; }
+.bdata_conteiner { display:flex; height:90vh; }
+.bdata_subconteiner1 { flex:1; flex-direction: column; display:flex; }
+.bdata_subconteiner2 { flex:5; display:flex; flex-wrap: wrap; }
+.bdata_subconteiner3 { display:flex; flex-wrap: wrap; }
+.divlabe { display:block; background-color:rgba(255,255,255,1); font-weight:bold; color:black; background-color:#D5D8DC; }
+.divinput { display:block; font-size:16px;   }
+.footer { position:absolute; }
+.tdx { background-color:#DCD9D6; height:40px; }
+
+header{
+	height:300px;
+	width: 100%;
+}
+.resize {
+    width:100%; /* you can use % */
+    height: 100%;
+}
+.menu-izquierda{
+    width: 300px;
+}
+.grilla{
+    display: grid;
+}
+label {
+    font-size: 1.5rem;
+}

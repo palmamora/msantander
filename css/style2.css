@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+html{
+    font-family: Arial;
+}
+
+.row{
+    /* background-color: green; */
+}
+
+#aside {
+    background-color: #7e57c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#aside ul {
+    list-style: none;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#aside ul li{
+    margin: 10px 0px;
+    background: #7e57c2;
+}
+#aside ul li:hover{
+    margin: 10px 0px;
+    background: #5a23b9;
+    font-size: larger;
+    transition: 0.3s;
+}
+
+#aside ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#content {
+    background-color: lightgray;
+}
+
+.jumbotron {
+    background-image: url("../images/header.jpg");
+    background-size: cover;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #7e57c2;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+  }
